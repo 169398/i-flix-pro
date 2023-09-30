@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+I-FLIX-MOVIE-PLAYER is an awesome application for streaming your favourite movies online without adds.
+It allows users to effortlessly search their favourite movies and watch .
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+        FEATURES
+        
+It's features are that it provides you wirh an option to search for your favourite movie with one click.
+It also provides you with additional information such as the year the movie was released and the movie ratings also the genre of the movie
+the country where it was produced and the cast members also the duration of the movie.
+Other features include forwarding the movie and playback option.
+And lastly there are suggestion according to the movie you searched just incase you forgot like the spelling .
+For instance if you forget the tittle of the marvel movie you want to watch you can just instead search for marvel and all the movies will appear.
 
-## Available Scripts
+          INSTALLATION
+1.Clone the repository
+git clone https://github.com/169398/I-FLIX-MOVIE-PLAYER.git
 
-In the project directory, you can run:
+2. Navigate to the project directory
+cd idris-movies
 
-### `npm start`
+3. Install dependencies
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Run the app
+npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+            HOW TO USE
 
-### `npm test`
+1. Start the application: `npm start`
+2. Open your browser and navigate to `http://localhost:3000`
+3. Begin using the application to accomplish task
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+            CONTRIBUTIONS
+   
+I welcome contributions from the community. If you're interested in contributing to I-FLIX-MOVIE-PLAYER, please feel free to submit a pull request.I will appreciate.
 
-### `npm run build`
+Incase  you have any question or need assistance feel free to contact me through my e-mail, kulubiidris@gmail.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
