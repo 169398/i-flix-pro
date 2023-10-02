@@ -15,6 +15,7 @@ const App = () => {
   }, []);
 
   const searchMovies = async (title) => {
+    console.log('Searching for:', title);
     const response = await fetch(`${API_URL}&s=${title}`);
     const data = await response.json();
 
@@ -34,8 +35,9 @@ const App = () => {
         <img
           src={SearchIcon}
           alt="search"
-          onClick={() => searchMovies(searchTerm)}
+          onClick={() => {console.log('Search icon clicked');searchMovies(searchTerm);}}
         />
+
       </div>
 
       {movies?.length > 0 ? (
