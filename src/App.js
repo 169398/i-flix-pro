@@ -31,6 +31,7 @@ const App = () => {
     }
   };
 
+  
   return (
     <div className="app">
       <h1>I FLIX</h1>
