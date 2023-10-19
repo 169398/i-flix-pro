@@ -74,7 +74,7 @@ h1 {
   cursor: pointer;
 }
 
-/* .search button {
+/*.search button {
   padding: 20px 40px;
   border-radius: 0.5rem;
   margin-left: 15px;
@@ -90,17 +90,21 @@ h1 {
 } */
 
 .empty {
-  width: 100%;
-  margin-top: 3rem;
+  text-align: auto;
+  padding: 20px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .header {
+    font-size: 1.28rem;
+    color: #f9d3b4;
+    font-family: var(--font-raleway);
+    padding-right: 66%;
+  }
 }
 
-.empty h2 {
-  font-size: 1.25rem;
-  color: #f9d3b4;
+.empty p {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: hsl(27, 85%, 84%);
   font-family: var(--font-raleway);
 }
 
@@ -170,6 +174,17 @@ h1 {
   letter-spacing: 2px;
   font-weight: 500;
   color: #f0f0f0;
+}
+
+/* Footer.css */
+.footer {
+  color: white;
+  text-align: center;
+}
+
+.footer-content {
+  font-size: small;
+  font-weight: 100;
 }
 
 .movie div:nth-of-type(3) h3 {
