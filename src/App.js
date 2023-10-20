@@ -5,8 +5,8 @@ import { ReactComponent as SearchIcon } from "./search.svg";
 //import ReactPlayer from "react-player";
 
 import "./App.css";
+const apiKey = process.env.REACT_APP_API_KEY;
 
-const API_URL = "HTTPS://www.omdbapi.com/?i=tt3896198&apikey=7994e036";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
