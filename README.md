@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 I-FLIX-MOVIE-PLAYER is an awesome application for streaming your favourite movies online without adds.
 It allows users to effortlessly search their favourite movies and watch .
 
@@ -36,3 +37,6 @@ I welcome contributions from the community. If you're interested in contributing
 Incase  you have any question or need assistance feel free to contact me through my e-mail, kulubiidris@gmail.com
 
 
+=======
+# iflix-movies
+>>>>>>> 57559babd348e63449d766f248cc96cb2a00656f
