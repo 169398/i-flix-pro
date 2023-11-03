@@ -26,6 +26,15 @@ body {
   flex-direction: column;
 }
 
+.search-icon svg {
+  fill: #ffffff;
+}
+.search-icon {
+  cursor: pointer;
+  color: #f0f0f0;
+  background-color: hsl(27, 85%, 84%);
+}
+
 h1 {
   font-size: 3rem;
   letter-spacing: 0.9px;
@@ -50,7 +59,7 @@ h1 {
 
   padding: 1.5rem 1.75rem;
   border-radius: 3rem;
-  background: #1f2123;
+  background: hsl(27, 85%, 84%);
   -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
   box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
 }
@@ -64,8 +73,8 @@ h1 {
   padding-right: 1rem;
 
   outline: none;
-  color: #a1a1a1;
-  background: #1f2123;
+  color: #131111;
+  background: hsl(27, 85%, 84%);
 }
 
 .search img {

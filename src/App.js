@@ -7,7 +7,6 @@ import { ReactComponent as SearchIcon } from "./search.svg";
 import "./App.css";
 const apiKey = process.env.REACT_APP_API_KEY;
 
-
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
@@ -43,8 +42,9 @@ const App = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Search for movies"
         />
+
         <img
-          src={SearchIcon}
+          src={require("./search.svg").default}
           alt="search"
           onClick={() => {
             console.log("Search icon clicked");
@@ -131,4 +131,3 @@ const App = () => {
 };
 
 export default App;
-
