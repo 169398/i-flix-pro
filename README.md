@@ -23,7 +23,7 @@ I-FLIX-MOVIE-PLAYER is an awesome application for streaming your favorite movies
 
 2. **Clone the repository**:
 ```ymal
-git clone https://github.com/169398/I-FLIX-MOVIE-PLAYER.git
+git clone https://github.com/169398/i-flix-pro.git
 ```
 
 
